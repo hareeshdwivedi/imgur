@@ -1,0 +1,25 @@
+.panels{
+	background-color: #2C2F34;
+	width:590px;
+}
+.panels .textbox{
+	background-color: #141518;
+padding: 10px;
+}
+.panels_header h2 {
+    float: left;
+    padding-top: 1px;
+
+}
+.panels_header .options{
+    float: right;
+    padding-top: 1px;
+    min-width: 95px;
+    max-width: 345px;
+}
+.options ul{
+	padding: 0;
+	margin:0;
+	display: flex;
+	list-style-type: none;
+}

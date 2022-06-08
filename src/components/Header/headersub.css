@@ -1,0 +1,138 @@
+.main_head{
+	background-color: #2c2f34;
+height: 50px;
+width: 100%;
+box-sizing: border-box;
+position: relative;
+overflow: hidden;
+}
+.main_head .inner_blog{
+	width: 1050px;
+	margin: 0 auto;
+	display: flex;
+	position: relative;
+	padding: 6px;
+	justify-content: space-between;
+	z-index: 1;
+}
+.logo_main{
+	z-index: 1;
+	position: relative;
+}
+.logo_head{
+	display: flex;
+align-items: center;
+z-index: 1;
+position: relative;
+}
+.logo_main a img{
+	width:80px;
+	vertical-align: middle;
+
+}
+.logo_main .dropbtn{
+	width: 10px;
+	height: 10px;
+	padding: 0px 3px 3px 3px;
+	outline: none;
+	color:#efefef;
+	margin:0px 0px 0px 10px; 
+	box-sizing: border-box;
+	position: relative;
+}
+.logo_main .dropbtn:hover{
+background-color:#50545c;
+border-radius: 50%;
+}
+.logo_head .btn_newpost{
+	background-color: #1bb76e;
+min-width: 120px;
+text-align: center;
+height: 30px;
+overflow: hidden;
+color:#fff;
+font-size: 13px;
+font-family: 'Souce Sanse Pro';
+font-weight: 600;
+border-radius: 3px;
+box-shadow: 0 6px 10px 0 rgba(27,28,30,.31);
+padding:5px 8px 3px 5px;
+margin-left:20px; 
+box-sizing: border-box;
+
+}
+.btn_newpost img{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.drop_down{
+	background-color: #efefef;
+	min-width: 140px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    border-radius: 3px;
+	    margin-left: 10px;
+	    z-index: 99;
+}
+
+.drop_down a{
+	text-decoration: none;
+	color:#121211;
+	float: none;
+	display: block;
+	padding: 11px;
+	height: 40px;
+	box-sizing: border-box;
+font-size:12px;
+z-index: 1;
+}
+.drop_down a:first-child{
+	font-weight: bold;
+}
+.right_head{
+	display: flex;
+	align-items: center;
+}
+.search,.dot,.bell{
+	color:#f2f2f2;
+	margin-right: 30px;
+}
+.right_head a{
+	text-decoration: none;
+	color:#f2f2f2;
+	font-size: 12px;
+}
+#account{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	color:#f2f2f2;
+}
+#url:hover #account{
+display:block;
+}
+.dropurl{
+	background-color: #efefef;
+width: 144px;
+border-top: 4px solid green;
+height: 200px;
+}
+.dropurl li{
+	list-style-type: none;
+	color:#121211;
+	padding: 10px;
+	font-size: 12px;
+}
+.dropurl li:last-child{
+	background-color: #ddd;
+
+	font-size: 12px;
+}
+.dropurl li .a{
+		color:#585858;
+		padding-right: 10px;
+}
+#icon_dropdown{
+	z-index: 1;
+	position:fixed;
+}

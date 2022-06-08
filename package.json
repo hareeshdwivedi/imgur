@@ -1,0 +1,33 @@
+{
+  "name": "imgur",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "halogen": "^0.2.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.32.1",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.3.2",
+    "react-dropdown": "^1.4.2",
+    "react-infinite-scroller": "^1.1.4",
+    "react-loader": "^2.4.5",
+    "react-md-spinner": "^0.2.5",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "react-scrolltop-button": "^0.1.4",
+    "react-select": "^1.2.1",
+    "react-select-box": "^3.0.1",
+    "yarn": "^1.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-social-icons": "^3.0.0"
+  }
+}

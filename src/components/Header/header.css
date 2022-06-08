@@ -1,0 +1,73 @@
+
+.header_main{
+    max-width:100%;
+    height: 62px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin: 0 10px 0 10px;
+font-family: 'Source Sans Pro';
+flex-wrap: wrap;
+position: relative;
+}
+.header_main .header_name{
+    min-width: 250px;
+    position: relative;
+}
+.header_main .header_logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.header_main  .ButtonLink{
+    position: relative;
+    text-align: center;
+    height:35px;
+    background-color: #1bb76e;
+width:auto;
+border-radius: 3px;
+box-shadow: 0 6px 10px 0 rgba(27,28,30,.31);
+color:#fff;
+padding:7px 18px 10px 9px;
+font-weight: 700;
+font-size: 15px;
+text-decoration: none;
+margin :auto 20px;
+font-family: 'Source Sans Pro';
+box-sizing: border-box;
+}
+.ButtonLink img{
+    vertical-align: middle;
+    padding: 0;
+    margin-right: 13px;
+    display: inline-block;
+    position: relative;
+}
+.header_main .header_search{
+    flex:1;
+    margin: 0 55px 0 0;
+    padding: 0;
+    max-width: 550px;
+
+}
+
+.header_main .header_right{
+min-width: 200px;  
+
+position: relative;
+
+}
+.header_main .header_right .right_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header_main .header_icon{
+padding-left: 6px;    
+}
+ .header_icon a{
+    margin-right: 10px;
+
+}

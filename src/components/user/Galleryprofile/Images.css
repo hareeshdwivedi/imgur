@@ -1,0 +1,74 @@
+.all-left-panel{
+	width:680px;
+
+}
+.all-left-panel .nav-wrapper{
+	    margin-bottom: 15px;
+    border-radius: 4px;
+    padding: 0 2px;
+
+}
+.all-left-panel .nav-wrapper h2{
+    margin: 8px 0 0;
+    padding: 0;
+    font-size: 17px;
+    	color: #ddddd1;
+font-weight: 700;
+}
+#options{
+	margin: 30px 0 20px;
+padding: 0 2px;
+display: flex;
+justify-content: space-between;
+}
+.all-left-panel #view{
+	width: 176px;
+	display: block;
+	position: relative;
+}
+#options .combobox{
+
+}
+#options .section{
+	color: #ddddd1;
+font-size: .9em;
+background-color: #34373c;
+border-radius: 5px;
+cursor: pointer;
+padding: 10px;
+position: relative;
+}
+#options .left{
+	position: relative;
+	float: left;
+	margin-right: 5px;
+}
+#options #sort{
+	width:147px;
+}
+#options #order{
+width:127px;
+}
+#options #mode{
+width:166px;
+}
+#options .left .triangle{
+width: 13px;
+height: 7px;
+position: absolute;
+top: 42%;
+right: 4px;
+margin-top: -2px;
+font-size: 10px;
+}
+#options .left .triangle::before{
+	content: '\25bc';
+	font-style: normal;
+	color: #f2f2f2;
+	
+}
+.all-left-panel .thumbs-container{
+		color:#f2f2f2;
+		clear: both;
+		font-size: 14px;
+}
